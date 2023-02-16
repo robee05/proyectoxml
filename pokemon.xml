@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="pok.xslt"?>
+
+<!DOCTYPE pokedex SYSTEM "poke.dtd">
+    <pokedex>
+		<pokemon nombre="bulbasaur" num_pokedex="1">
+            <url_imagen imagen="pokemon.jpg"
+                        tipo_imagen="jpg"/>
+            <datos_generales>
+                <altura>0.45</altura>
+                <peso>20</peso>
+                <sexo>M/F</sexo>
+                <categoria>Semilla</categoria>
+                <habilidad>Espesura</habilidad>
+            </datos_generales>
+            <tipologia>
+                <tipos>
+                    <tipo1>
+                        <descripcion>Planta</descripcion>
+                    </tipo1>
+                </tipos>
+                <debilidades>
+                    <debilidad>
+                        <tipo2>Fuego</tipo2>
+                        <efectividad>x2</efectividad>
+                        <tipo2>Volador</tipo2>
+                        <efectividad>x2</efectividad>
+                    </debilidad>
+                </debilidades>
+                <fortalezas>
+                    <fortaleza>
+                        <tipo3>Agua</tipo3>
+                        <efectividad>x2</efectividad>
+                        <tipo3>Tierra</tipo3>
+                        <efectividad>x2</efectividad>
+                    </fortaleza>
+                </fortalezas>
+            </tipologia>
+            <stats_base>
+                <ps>30</ps>
+                <at>10</at>
+                <def>12</def>
+                <spat>15</spat>
+                <spde>13</spde>
+                <vel>5</vel>
+            </stats_base>
+            <evoluciones>
+                <evolucion>
+                    <orden>-1</orden>
+                    <num_pokedex>2</num_pokedex>
+                </evolucion>
+                <bool nombre="tiene_evolucion">[true | false]</bool>
+            </evoluciones>
+        </pokemon>
+	</pokedex>
+
+
